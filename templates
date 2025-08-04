@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LunaTICS Lounge - Validator Monitor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #121212; color: #fff; }
+        h1 { color: #00ffcc; }
+        .status { padding: 10px; background: #1e1e1e; margin: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>LunaTICS Lounge - Qubetics Validator Status</h1>
+    <div class="status">
+        <p>Validator: {{ status_data['validator_name'] }}</p>
+        <p>Height: {{ status_data['height'] }}</p>
+        <p>Peers: {{ status_data['peers'] }}</p>
+        <p>Voting Power: {{ status_data['voting_power'] }}</p>
+        <p>Status: {{ status_data['status'] }}</p>
+    </div>
+</body>
+</html>
