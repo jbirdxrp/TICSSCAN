@@ -1,0 +1,3 @@
+BOT_TOKEN = "8319937554:AAG75urBfe0PEtIgfsxaE3SzfBK72Qh16_k"
+CHAT_ID = "-1002655183155"
+VALIDATOR_ADDRESS = "qubeticsvaloper1ydcgaqh88cvryrpzgukkzm5ygchk7rzx340z07"
